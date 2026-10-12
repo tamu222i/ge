@@ -22,3 +22,4 @@ All notable changes to the Gemini Live Voice Companion application will be docum
 - [Feature] セッションごとの履歴保持・切り替えドロワー (`SessionHistorySidebar`): 新規セッション作成、キーワード検索、リネーム、削除、自動ローカル永続化
 - [Feature] Gemini Live API ユーザー音声認識 (`inputTranscription` / `interimInputTranscription`) と Web Speech API によるシームレスな発話リアルタイム同期
 - [Feature] GitHub Pages (`github.io`) デプロイ対応: Vite 相対パス設定 (`base: './'`)、SPA用 `404.html` 生成、GitHub Pages環境自動検出 & WebSocket URL動的解決 (`resolveLiveWebSocketUrl`)、自動デプロイワークフロー (`.github/workflows/deploy.yml`)、デプロイ手順書 (`DEPLOY_GITHUB_PAGES.md`)
+- [Fix] GitHub Actions CI/CD の `Dependencies lock file is not found` エラー解消のため `package-lock.json` を生成・コミットし、`npm ci || npm install` フォールバックを追加
