@@ -1,0 +1,6 @@
+{
+  "name": "Gemini Live Voice Companion",
+  "description": "Gemini 3.8 Live APIを活用したリアルタイム双方向音声対話Webアプリケーション",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
